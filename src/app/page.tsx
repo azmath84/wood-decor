@@ -42,6 +42,9 @@ export default async function Home() {
           desc={"Snuggle Up in Style with a Sectional Sofa's"}
           query="sofa"
         />
+        <DesignConsultationForm />
+
+        
         <Featured
           title="Beds"
           desc={"Add Luxury to your Bed Room"}
@@ -76,7 +79,6 @@ export default async function Home() {
             Book A Free Design Consultation
           </p>
         </div>
-        <DesignConsultationForm />
         <GridDesign />
         <Link href={"#testimonils"}>
           <Button className="-rotate-90 flex items-center gap-1 fixed top-1/2 -right-8">
